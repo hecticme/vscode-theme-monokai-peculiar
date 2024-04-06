@@ -2,7 +2,7 @@
   "publisher": "hecticme",
   "name": "monomixed",
   "displayName": "Monomixed",
-  "description": "Monokai mixed with colors from other themes",
+  "description": "VSCode theme with Monokai as the base",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
