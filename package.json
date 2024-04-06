@@ -3,6 +3,11 @@
   "displayName": "Monomixed",
   "description": "Monokai mixed with colors from other themes",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hecticme/vscode-theme-monomixed"
+  },
   "engines": {
     "vscode": "^1.88.0"
   },
