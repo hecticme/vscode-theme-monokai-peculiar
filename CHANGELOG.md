@@ -1,9 +1,7 @@
-# Change Log
+## 0.0.3 (09 April 2024)
 
-All notable changes to the "monomixed" extension will be documented in this file.
+* Use "#34D399" as the color for class entities.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.2 (07 April 2024)
 
-## [Unreleased]
-
-- Initial release
+* Enable semantic highlighting.
