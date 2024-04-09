@@ -987,7 +987,7 @@
       }
     },
     {
-      "scope": "support.class.component.tsx",
+      "scope": "support.class.component",
       "settings": {
         "foreground": "#34D399",
         "fontStyle": ""
