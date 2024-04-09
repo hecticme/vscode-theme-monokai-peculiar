@@ -926,15 +926,15 @@
     {
       "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
       "settings": {
-        "foreground": "#A6E22E",
-        "fontStyle": "underline"
+        "foreground": "#34D399",
+        "fontStyle": ""
       }
     },
     {
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#A6E22E",
-        "fontStyle": "italic underline"
+        "foreground": "#34D399",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1175,6 +1175,7 @@
     {
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
+        "foreground": "#A6E22E",
         "fontStyle": ""
       }
     },
