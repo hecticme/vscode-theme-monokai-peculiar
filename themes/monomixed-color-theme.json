@@ -987,6 +987,13 @@
       }
     },
     {
+      "scope": "support.class.component.tsx",
+      "settings": {
+        "foreground": "#34D399",
+        "fontStyle": ""
+      }
+    },
+    {
       "scope": "support.other.variable",
       "settings": {
         "fontStyle": ""
