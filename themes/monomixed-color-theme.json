@@ -1187,7 +1187,7 @@
       }
     },
     {
-      "scope": "support.type.property-name.json.comments",
+      "scope": "support.type.property-name.json.comments, support.type.property-name.json",
       "settings": {
         "fontStyle": ""
       }
