@@ -44,7 +44,7 @@
     "editorSuggestWidget.selectedBackground": "#373c3d",
     "editorWhitespace.foreground": "#464741",
     "editorWidget.background": "#1d2021",
-    "focusBorder": "#99947c",
+    "focusBorder": "#373c3d",
     "input.background": "#282b2b",
     "inputOption.activeBorder": "#75715e",
     "inputValidation.errorBackground": "#90274a",
