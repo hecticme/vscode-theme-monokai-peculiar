@@ -1015,7 +1015,7 @@
     {
       "scope": "meta.structure.dictionary.json string.quoted.double.json",
       "settings": {
-        "foreground": "#CFCFC2"
+        "foreground": "#F8F8F2"
       }
     },
     {
