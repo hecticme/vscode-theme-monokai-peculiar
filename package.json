@@ -15,6 +15,10 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "monokai",
+    "dark"
+  ],
   "contributes": {
     "themes": [
       {
