@@ -3,6 +3,7 @@
   "name": "monomixed",
   "displayName": "Monomixed",
   "description": "VSCode theme with Monokai as the base",
+  "icon": "icon.png",
   "version": "0.1.1",
   "license": "MIT",
   "repository": {
