@@ -469,7 +469,7 @@
     {
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#A6E22E",
+        "foreground": "#34D399",
         "fontStyle": ""
       }
     },
