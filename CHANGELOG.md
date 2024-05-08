@@ -1,3 +1,7 @@
+## 0.1.4 (May 09, 2024)
+
+* Change `list.dropBackground` color.
+
 ## 0.1.3 (April 25, 2024)
 
 * Change `entity.name.type.instance.jsdoc` color.
