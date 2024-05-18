@@ -30,6 +30,9 @@
     ]
   },
   "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "@stylistic/eslint-plugin": "^2.1.0",
     "eslint": "^9.3.0"
