@@ -16,7 +16,7 @@ export default [
         2,
         {
           ignoredNodes: [],
-          SwitchCase: 1, // 0
+          SwitchCase: 1,
           VariableDeclarator: 1,
           outerIIFEBody: 1,
           MemberExpression: 1,
@@ -45,14 +45,14 @@ export default [
       '@stylistic/no-multiple-empty-lines': [
         'error',
         {
-          max: 1, // 2
-          maxBOF: 0, // 2
-          maxEOF: 0, // 0
+          max: 1,
+          maxBOF: 0,
+          maxEOF: 0,
         },
       ],
       '@stylistic/quotes': [
         'error',
-        'single', // 'double'
+        'single',
         {
           avoidEscape: true,
           allowTemplateLiterals: false,
@@ -60,11 +60,11 @@ export default [
       ],
       '@stylistic/quote-props': [
         'error',
-        'as-needed', // 'always'
+        'as-needed',
       ],
       '@stylistic/semi': [
         'error',
-        'never', // 'always'
+        'never',
         {
           beforeStatementContinuationChars: 'never',
         },
