@@ -25,7 +25,7 @@
       {
         "label": "Monokai Peculiar",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/default.json"
+        "path": "./themes/default.json"
       }
     ]
   },
