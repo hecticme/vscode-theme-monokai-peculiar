@@ -31,6 +31,7 @@
   },
   "type": "module",
   "scripts": {
+    "build": "node src/index.js",
     "lint": "eslint ."
   },
   "devDependencies": {
