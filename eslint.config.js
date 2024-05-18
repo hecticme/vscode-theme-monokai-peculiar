@@ -58,6 +58,10 @@ export default [
           allowTemplateLiterals: false,
         },
       ],
+      '@stylistic/quote-props': [
+        'error',
+        'as-needed', // 'always'
+      ],
       '@stylistic/semi': [
         'error',
         'never', // 'always'
