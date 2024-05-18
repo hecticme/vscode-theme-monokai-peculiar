@@ -1,4 +1,4 @@
-import { defaultColors } from './colors.js'
+import { defaultColors, transparent } from './colors.js'
 
 const defaultTheme = {
   name: 'Monokai Peculiar',
@@ -17,13 +17,13 @@ const defaultTheme = {
     'button.background': defaultColors.mainColor.monokaiHaze,
     'button.foreground': defaultColors.eerieBlack,
 
-    'debugToolBar.background': '#1e1f1c',
+    'debugToolBar.background': defaultColors.swamp,
 
     'diffEditor.insertedTextBackground': '#4b661680',
     'diffEditor.removedTextBackground': '#90274a70',
 
-    'dropdown.background': '#282b2b',
-    'dropdown.listBackground': '#1e1f1c',
+    'dropdown.background': defaultColors.gunmetal,
+    'dropdown.listBackground': defaultColors.swamp,
 
     'editor.background': defaultColors.eerieBlack,
     'editor.findMatchBackground': '#83a59870',
@@ -36,70 +36,70 @@ const defaultTheme = {
     'editor.selectionHighlightBackground': '#fabd2f40',
     'editor.wordHighlightBackground': '#4a4a7680',
     'editor.wordHighlightStrongBackground': '#6a6a9680',
-    'editorCursor.foreground': '#f8f8f0',
-    'editorGroup.border': '#414339',
+    'editorCursor.foreground': defaultColors.mainColor.monokaiHaze,
+    'editorGroup.border': defaultColors.rifleGreen,
     'editorGroup.dropBackground': '#41433980',
     'editorGroupHeader.noTabsBackground': defaultColors.eerieBlack,
     'editorGroupHeader.tabsBackground': defaultColors.eerieBlack,
     'editorHoverWidget.background': defaultColors.eerieBlack,
-    'editorHoverWidget.border': '#75715e',
+    'editorHoverWidget.border': defaultColors.oliveGray,
     'editorIndentGuide.activeBackground1': '#767771',
     'editorIndentGuide.background1': '#464741',
     'editorLineNumber.activeForeground': '#c2c2bf',
     'editorLineNumber.foreground': '#90908a',
     'editorSuggestWidget.background': defaultColors.eerieBlack,
-    'editorSuggestWidget.border': '#75715e',
+    'editorSuggestWidget.border': defaultColors.oliveGray,
     'editorSuggestWidget.selectedBackground': '#373c3d',
     'editorWhitespace.foreground': '#464741',
     'editorWidget.background': defaultColors.eerieBlack,
 
-    focusBorder: '#75715e',
+    focusBorder: defaultColors.oliveGray,
 
-    'input.background': '#282b2b',
-    'inputOption.activeBorder': '#75715e',
+    'input.background': defaultColors.gunmetal,
+    'inputOption.activeBorder': defaultColors.oliveGray,
     'inputValidation.errorBackground': '#90274a',
-    'inputValidation.errorBorder': '#f92672',
+    'inputValidation.errorBorder': defaultColors.mainColor.razzmatazz,
     'inputValidation.infoBackground': '#546190',
     'inputValidation.infoBorder': '#819aff',
     'inputValidation.warningBackground': '#848528',
     'inputValidation.warningBorder': '#e2e22e',
 
     'list.activeSelectionBackground': '#47526640',
-    'list.dropBackground': '#282b2b',
+    'list.dropBackground': defaultColors.gunmetal,
     'list.highlightForeground': defaultColors.mainColor.monokaiHaze,
     'list.hoverBackground': '#47526640',
     'list.inactiveSelectionBackground': '#47526633',
 
     'menu.background': defaultColors.eerieBlack,
-    'menu.border': '#414339',
+    'menu.border': defaultColors.rifleGreen,
     'menu.foreground': '#cccccc',
 
     'minimap.selectionHighlight': '#878b9180',
 
-    'panel.border': '#414339',
+    'panel.border': defaultColors.rifleGreen,
 
     'panelTitle.activeBorder': defaultColors.mainColor.monokaiHaze,
     'panelTitle.activeForeground': defaultColors.mainColor.monokaiHaze,
-    'panelTitle.inactiveForeground': '#75715e',
+    'panelTitle.inactiveForeground': defaultColors.oliveGray,
 
-    'peekView.border': '#75715e',
+    'peekView.border': defaultColors.oliveGray,
     'peekViewEditor.background': defaultColors.eerieBlack,
-    'peekViewEditor.matchHighlightBackground': '#75715e',
+    'peekViewEditor.matchHighlightBackground': defaultColors.oliveGray,
     'peekViewResult.background': defaultColors.eerieBlack,
-    'peekViewResult.matchHighlightBackground': '#75715e',
-    'peekViewResult.selectionBackground': '#414339',
+    'peekViewResult.matchHighlightBackground': defaultColors.oliveGray,
+    'peekViewResult.selectionBackground': defaultColors.rifleGreen,
     'peekViewTitle.background': defaultColors.eerieBlack,
 
-    'pickerGroup.foreground': '#75715e',
+    'pickerGroup.foreground': defaultColors.oliveGray,
 
     'ports.iconRunningProcessForeground': '#ccccc7',
 
-    'progressBar.background': '#75715e',
+    'progressBar.background': defaultColors.oliveGray,
 
     'quickInput.background': defaultColors.eerieBlack,
     'quickInputList.focusBackground': '#373c3d',
 
-    'scrollbar.shadow': '#00000000',
+    'scrollbar.shadow': transparent,
     'scrollbarSlider.activeBackground': '#565b66b3',
     'scrollbarSlider.background': '#565b6666',
     'scrollbarSlider.hoverBackground': '#565b6699',
@@ -120,26 +120,26 @@ const defaultTheme = {
 
     'tab.activeBackground': defaultColors.eerieBlack,
     'tab.activeBorder': defaultColors.mainColor.monokaiHaze,
-    'tab.border': '#00000000',
+    'tab.border': transparent,
     'tab.hoverBackground': '#47526640',
     'tab.inactiveBackground': defaultColors.eerieBlack,
     'tab.inactiveForeground': '#ccccc7',
-    'tab.lastPinnedBorder': '#414339',
+    'tab.lastPinnedBorder': defaultColors.rifleGreen,
 
     'terminal.ansiBlack': defaultColors.eerieBlack,
     'terminal.ansiBlue': defaultColors.mainColor.monokaiBlue,
-    'terminal.ansiBrightBlack': '#282b2b',
+    'terminal.ansiBrightBlack': defaultColors.gunmetal,
     'terminal.ansiBrightBlue': defaultColors.mainColor.monokaiBlue,
     'terminal.ansiBrightCyan': '#a1efe4',
     'terminal.ansiBrightGreen': defaultColors.mainColor.monokaiGreen,
-    'terminal.ansiBrightMagenta': '#ae81ff',
-    'terminal.ansiBrightRed': '#f92672',
+    'terminal.ansiBrightMagenta': defaultColors.mainColor.lavendar,
+    'terminal.ansiBrightRed': defaultColors.mainColor.razzmatazz,
     'terminal.ansiBrightWhite': '#f9f8f5',
     'terminal.ansiBrightYellow': '#ffd866',
     'terminal.ansiCyan': '#a1efe4',
     'terminal.ansiGreen': defaultColors.mainColor.monokaiGreen,
-    'terminal.ansiMagenta': '#ae81ff',
-    'terminal.ansiRed': '#f92672',
+    'terminal.ansiMagenta': defaultColors.mainColor.lavendar,
+    'terminal.ansiRed': defaultColors.mainColor.razzmatazz,
     'terminal.ansiWhite': defaultColors.mainColor.monokaiHaze,
     'terminal.ansiYellow': '#ffd866',
     'terminal.background': defaultColors.eerieBlack,
@@ -150,7 +150,7 @@ const defaultTheme = {
     'titleBar.activeBackground': defaultColors.eerieBlack,
     'titleBar.inactiveBackground': defaultColors.eerieBlack,
 
-    'widget.border': '#414339',
+    'widget.border': defaultColors.rifleGreen,
     'widget.shadow': '#00000098',
   },
   tokenColors: [
@@ -174,7 +174,7 @@ const defaultTheme = {
     {
       scope: 'string',
       settings: {
-        foreground: '#E6DB74',
+        foreground: defaultColors.mainColor.straw,
       },
     },
     {
@@ -183,7 +183,7 @@ const defaultTheme = {
         'punctuation.section.embedded',
       ],
       settings: {
-        foreground: '#F92672',
+        foreground: defaultColors.mainColor.razzmatazz,
       },
     },
     {
@@ -197,19 +197,19 @@ const defaultTheme = {
     {
       scope: 'constant.numeric',
       settings: {
-        foreground: '#AE81FF',
+        foreground: defaultColors.mainColor.lavendar,
       },
     },
     {
       scope: 'constant.language',
       settings: {
-        foreground: '#AE81FF',
+        foreground: defaultColors.mainColor.lavendar,
       },
     },
     {
       scope: 'constant.character, constant.other',
       settings: {
-        foreground: '#AE81FF',
+        foreground: defaultColors.mainColor.lavendar,
       },
     },
     {
@@ -222,13 +222,13 @@ const defaultTheme = {
     {
       scope: 'keyword',
       settings: {
-        foreground: '#F92672',
+        foreground: defaultColors.mainColor.razzmatazz,
       },
     },
     {
       scope: 'storage',
       settings: {
-        foreground: '#F92672',
+        foreground: defaultColors.mainColor.razzmatazz,
         fontStyle: '',
       },
     },
@@ -242,14 +242,14 @@ const defaultTheme = {
     {
       scope: 'entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution',
       settings: {
-        foreground: '#34D399',
+        foreground: defaultColors.mainColor.emerald,
         fontStyle: '',
       },
     },
     {
       scope: 'entity.other.inherited-class',
       settings: {
-        foreground: '#34D399',
+        foreground: defaultColors.mainColor.emerald,
         fontStyle: 'italic',
       },
     },
@@ -270,7 +270,7 @@ const defaultTheme = {
     {
       scope: 'entity.name.tag',
       settings: {
-        foreground: '#F92672',
+        foreground: defaultColors.mainColor.razzmatazz,
         fontStyle: '',
       },
     },
@@ -305,7 +305,7 @@ const defaultTheme = {
     {
       scope: 'support.class.component',
       settings: {
-        foreground: '#34D399',
+        foreground: defaultColors.mainColor.emerald,
         fontStyle: '',
       },
     },
@@ -318,14 +318,14 @@ const defaultTheme = {
     {
       scope: 'invalid',
       settings: {
-        foreground: '#F44747',
+        foreground: defaultColors.crimson,
         fontStyle: '',
       },
     },
     {
       scope: 'invalid.deprecated',
       settings: {
-        foreground: '#F44747',
+        foreground: defaultColors.crimson,
       },
     },
     {
@@ -337,13 +337,13 @@ const defaultTheme = {
     {
       scope: 'meta.diff, meta.diff.header',
       settings: {
-        foreground: '#75715E',
+        foreground: defaultColors.oliveGray,
       },
     },
     {
       scope: 'markup.deleted',
       settings: {
-        foreground: '#F92672',
+        foreground: defaultColors.mainColor.razzmatazz,
       },
     },
     {
@@ -355,7 +355,7 @@ const defaultTheme = {
     {
       scope: 'markup.changed',
       settings: {
-        foreground: '#E6DB74',
+        foreground: defaultColors.mainColor.straw,
       },
     },
     {
@@ -367,19 +367,19 @@ const defaultTheme = {
     {
       scope: 'entity.name.filename.find-in-files',
       settings: {
-        foreground: '#E6DB74',
+        foreground: defaultColors.mainColor.straw,
       },
     },
     {
       scope: 'markup.quote',
       settings: {
-        foreground: '#F92672',
+        foreground: defaultColors.mainColor.razzmatazz,
       },
     },
     {
       scope: 'markup.list',
       settings: {
-        foreground: '#E6DB74',
+        foreground: defaultColors.mainColor.straw,
       },
     },
     {
@@ -417,7 +417,7 @@ const defaultTheme = {
     {
       scope: 'markup.quote.markdown',
       settings: {
-        foreground: '#75715E',
+        foreground: defaultColors.oliveGray,
         fontStyle: 'italic',
       },
     },
@@ -430,13 +430,13 @@ const defaultTheme = {
     {
       scope: 'string.other.link.title.markdown,string.other.link.description.markdown',
       settings: {
-        foreground: '#AE81FF',
+        foreground: defaultColors.mainColor.lavendar,
       },
     },
     {
       scope: 'markup.underline.link.markdown,markup.underline.link.image.markdown',
       settings: {
-        foreground: '#E6DB74',
+        foreground: defaultColors.mainColor.straw,
       },
     },
     {
@@ -480,7 +480,7 @@ const defaultTheme = {
     {
       scope: 'token.error-token',
       settings: {
-        foreground: '#F44747',
+        foreground: defaultColors.crimson,
       },
     },
     {
@@ -498,7 +498,7 @@ const defaultTheme = {
     {
       scope: 'entity.name.type.instance.jsdoc',
       settings: {
-        foreground: '#34D399',
+        foreground: defaultColors.mainColor.emerald,
         fontStyle: '',
       },
     },
