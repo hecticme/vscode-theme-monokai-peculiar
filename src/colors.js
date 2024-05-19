@@ -14,6 +14,8 @@ const defaultColors = {
     inserted: '#4b661680',
     removed: '#90274a70',
   },
+  comment: '#88846f',
+  whitespace: '#464741',
 
   crimson: '#F44747',
   rifleGreen: '#414339',

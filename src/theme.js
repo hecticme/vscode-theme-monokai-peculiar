@@ -44,13 +44,13 @@ const defaultTheme = {
     'editorHoverWidget.background': defaultColors.background,
     'editorHoverWidget.border': defaultColors.oliveGray,
     'editorIndentGuide.activeBackground1': '#767771',
-    'editorIndentGuide.background1': '#464741',
+    'editorIndentGuide.background1': defaultColors.whitespace,
     'editorLineNumber.activeForeground': '#c2c2bf',
     'editorLineNumber.foreground': '#90908a',
     'editorSuggestWidget.background': defaultColors.background,
     'editorSuggestWidget.border': defaultColors.oliveGray,
     'editorSuggestWidget.selectedBackground': '#373c3d',
-    'editorWhitespace.foreground': '#464741',
+    'editorWhitespace.foreground': defaultColors.whitespace,
     'editorWidget.background': defaultColors.background,
 
     focusBorder: defaultColors.charcoalGray,
@@ -169,7 +169,7 @@ const defaultTheme = {
     {
       scope: 'comment',
       settings: {
-        foreground: '#88846F',
+        foreground: defaultColors.comment,
       },
     },
     {
