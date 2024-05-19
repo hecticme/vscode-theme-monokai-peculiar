@@ -11,8 +11,8 @@ const defaultColors = {
     cyan: '#a1efe4',
   },
   diff: {
-    inserted: '#99b76d23',
-    removed: '#ef535033',
+    inserted: '#4b661680',
+    removed: '#90274a70',
   },
 
   crimson: '#F44747',
