@@ -25,8 +25,19 @@
       {
         "label": "Monokai Peculiar",
         "uiTheme": "vs-dark",
-        "path": "./themes/monokai-peculiar-color-theme.json"
+        "path": "./themes/default.json"
       }
     ]
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node src/index.js",
+    "lint": "eslint .",
+    "publish": "npm run build && vsce publish"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.1.0",
+    "@vscode/vsce": "^2.26.1",
+    "eslint": "^9.3.0"
   }
 }
