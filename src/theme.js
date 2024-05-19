@@ -124,7 +124,7 @@ const defaultTheme = {
     'tab.border': transparent,
     'tab.hoverBackground': defaultColors.blueGray,
     'tab.inactiveBackground': defaultColors.background,
-    'tab.inactiveForeground': defaultColors.border.lighter,
+    'tab.inactiveForeground': defaultColors.lightGray,
     'tab.lastPinnedBorder': defaultColors.border.base,
 
     'terminal.ansiBlack': defaultColors.background,
