@@ -14,6 +14,10 @@ const defaultColors = {
   },
   comment: '#88846f',
   whitespace: '#464741',
+  border: {
+    base: '#404040',
+    lighter: '#a3a3a3',
+  },
 
   lightGray: '#cccccc',
 
@@ -23,8 +27,6 @@ const defaultColors = {
   gunmetal: '#282b2b',
   background: '#1d2021',
   swamp: '#1e1f1c',
-  charcoal: '#404040',
-  charcoalGray: '#a3a3a3',
   slateGray: '#737373',
   blueGray: '#47526640',
 }

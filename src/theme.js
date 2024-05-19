@@ -37,7 +37,7 @@ const defaultTheme = {
     'editor.wordHighlightBackground': '#4a4a7680',
     'editor.wordHighlightStrongBackground': '#6a6a9680',
     'editorCursor.foreground': defaultColors.haze,
-    'editorGroup.border': defaultColors.charcoal,
+    'editorGroup.border': defaultColors.border.base,
     'editorGroup.dropBackground': '#41433980',
     'editorGroupHeader.noTabsBackground': defaultColors.background,
     'editorGroupHeader.tabsBackground': defaultColors.background,
@@ -53,7 +53,7 @@ const defaultTheme = {
     'editorWhitespace.foreground': defaultColors.whitespace,
     'editorWidget.background': defaultColors.background,
 
-    focusBorder: defaultColors.charcoalGray,
+    focusBorder: defaultColors.border.lighter,
 
     'input.background': defaultColors.gunmetal,
     'inputOption.activeBorder': defaultColors.oliveGray,
@@ -71,12 +71,12 @@ const defaultTheme = {
     'list.inactiveSelectionBackground': '#47526633',
 
     'menu.background': defaultColors.background,
-    'menu.border': defaultColors.charcoal,
+    'menu.border': defaultColors.border.base,
     'menu.foreground': defaultColors.lightGray,
 
     'minimap.selectionHighlight': '#878b9180',
 
-    'panel.border': defaultColors.charcoal,
+    'panel.border': defaultColors.border.base,
 
     'panelTitle.activeBorder': defaultColors.haze,
     'panelTitle.activeForeground': defaultColors.haze,
@@ -124,8 +124,8 @@ const defaultTheme = {
     'tab.border': transparent,
     'tab.hoverBackground': defaultColors.blueGray,
     'tab.inactiveBackground': defaultColors.background,
-    'tab.inactiveForeground': defaultColors.charcoalGray,
-    'tab.lastPinnedBorder': defaultColors.charcoal,
+    'tab.inactiveForeground': defaultColors.border.lighter,
+    'tab.lastPinnedBorder': defaultColors.border.base,
 
     'terminal.ansiBlack': defaultColors.background,
     'terminal.ansiBlue': defaultColors.blue,
