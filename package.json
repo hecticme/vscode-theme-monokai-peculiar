@@ -32,7 +32,8 @@
   "type": "module",
   "scripts": {
     "build": "node src/index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "npm run build && vsce publish"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin": "^2.1.0",
