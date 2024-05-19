@@ -6,16 +6,16 @@ const defaultTheme = {
   type: 'dark',
   colors: {
     'activityBar.activeBorder': defaultColors.mainColor.monokaiHaze,
-    'activityBar.background': defaultColors.eerieBlack,
+    'activityBar.background': defaultColors.background,
     'activityBar.foreground': defaultColors.mainColor.monokaiHaze,
     'activityBarBadge.background': defaultColors.mainColor.monokaiHaze,
-    'activityBarBadge.foreground': defaultColors.eerieBlack,
+    'activityBarBadge.foreground': defaultColors.background,
 
     'badge.background': defaultColors.mainColor.monokaiHaze,
-    'badge.foreground': defaultColors.eerieBlack,
+    'badge.foreground': defaultColors.background,
 
     'button.background': defaultColors.mainColor.monokaiHaze,
-    'button.foreground': defaultColors.eerieBlack,
+    'button.foreground': defaultColors.background,
 
     'debugToolBar.background': defaultColors.swamp,
 
@@ -25,7 +25,7 @@ const defaultTheme = {
     'dropdown.background': defaultColors.gunmetal,
     'dropdown.listBackground': defaultColors.swamp,
 
-    'editor.background': defaultColors.eerieBlack,
+    'editor.background': defaultColors.background,
     'editor.findMatchBackground': '#83a59870',
     'editor.findMatchHighlightBackground': '#fe801930',
     'editor.findRangeHighlightBackground': '#83a59870',
@@ -39,19 +39,19 @@ const defaultTheme = {
     'editorCursor.foreground': defaultColors.mainColor.monokaiHaze,
     'editorGroup.border': defaultColors.charcoal,
     'editorGroup.dropBackground': '#41433980',
-    'editorGroupHeader.noTabsBackground': defaultColors.eerieBlack,
-    'editorGroupHeader.tabsBackground': defaultColors.eerieBlack,
-    'editorHoverWidget.background': defaultColors.eerieBlack,
+    'editorGroupHeader.noTabsBackground': defaultColors.background,
+    'editorGroupHeader.tabsBackground': defaultColors.background,
+    'editorHoverWidget.background': defaultColors.background,
     'editorHoverWidget.border': defaultColors.oliveGray,
     'editorIndentGuide.activeBackground1': '#767771',
     'editorIndentGuide.background1': '#464741',
     'editorLineNumber.activeForeground': '#c2c2bf',
     'editorLineNumber.foreground': '#90908a',
-    'editorSuggestWidget.background': defaultColors.eerieBlack,
+    'editorSuggestWidget.background': defaultColors.background,
     'editorSuggestWidget.border': defaultColors.oliveGray,
     'editorSuggestWidget.selectedBackground': '#373c3d',
     'editorWhitespace.foreground': '#464741',
-    'editorWidget.background': defaultColors.eerieBlack,
+    'editorWidget.background': defaultColors.background,
 
     focusBorder: defaultColors.charcoalGray,
 
@@ -70,7 +70,7 @@ const defaultTheme = {
     'list.hoverBackground': defaultColors.blueGray,
     'list.inactiveSelectionBackground': '#47526633',
 
-    'menu.background': defaultColors.eerieBlack,
+    'menu.background': defaultColors.background,
     'menu.border': defaultColors.charcoal,
     'menu.foreground': defaultColors.charcoalGray,
 
@@ -83,12 +83,12 @@ const defaultTheme = {
     'panelTitle.inactiveForeground': defaultColors.oliveGray,
 
     'peekView.border': defaultColors.oliveGray,
-    'peekViewEditor.background': defaultColors.eerieBlack,
+    'peekViewEditor.background': defaultColors.background,
     'peekViewEditor.matchHighlightBackground': defaultColors.oliveGray,
-    'peekViewResult.background': defaultColors.eerieBlack,
+    'peekViewResult.background': defaultColors.background,
     'peekViewResult.matchHighlightBackground': defaultColors.oliveGray,
     'peekViewResult.selectionBackground': defaultColors.rifleGreen,
-    'peekViewTitle.background': defaultColors.eerieBlack,
+    'peekViewTitle.background': defaultColors.background,
 
     'pickerGroup.foreground': defaultColors.oliveGray,
 
@@ -96,7 +96,7 @@ const defaultTheme = {
 
     'progressBar.background': defaultColors.oliveGray,
 
-    'quickInput.background': defaultColors.eerieBlack,
+    'quickInput.background': defaultColors.background,
     'quickInputList.focusBackground': '#373c3d',
 
     'scrollbar.shadow': transparent,
@@ -108,26 +108,26 @@ const defaultTheme = {
 
     'settings.focusedRowBackground': '#2c2c2b',
 
-    'sideBar.background': defaultColors.eerieBlack,
-    'sideBarSectionHeader.background': defaultColors.eerieBlack,
+    'sideBar.background': defaultColors.background,
+    'sideBarSectionHeader.background': defaultColors.background,
 
-    'statusBar.background': defaultColors.eerieBlack,
-    'statusBar.debuggingBackground': defaultColors.eerieBlack,
-    'statusBar.noFolderBackground': defaultColors.eerieBlack,
-    'statusBarItem.remoteBackground': defaultColors.eerieBlack,
+    'statusBar.background': defaultColors.background,
+    'statusBar.debuggingBackground': defaultColors.background,
+    'statusBar.noFolderBackground': defaultColors.background,
+    'statusBarItem.remoteBackground': defaultColors.background,
     'statusBarItem.remoteForeground': defaultColors.mainColor.monokaiHaze,
     'statusBarItem.remoteHoverForeground': defaultColors.mainColor.monokaiHaze,
 
     'tab.activeForeground': defaultColors.mainColor.monokaiHaze,
-    'tab.activeBackground': defaultColors.eerieBlack,
+    'tab.activeBackground': defaultColors.background,
     'tab.activeBorder': defaultColors.mainColor.monokaiHaze,
     'tab.border': transparent,
     'tab.hoverBackground': defaultColors.blueGray,
-    'tab.inactiveBackground': defaultColors.eerieBlack,
+    'tab.inactiveBackground': defaultColors.background,
     'tab.inactiveForeground': defaultColors.charcoalGray,
     'tab.lastPinnedBorder': defaultColors.charcoal,
 
-    'terminal.ansiBlack': defaultColors.eerieBlack,
+    'terminal.ansiBlack': defaultColors.background,
     'terminal.ansiBlue': defaultColors.mainColor.monokaiBlue,
     'terminal.ansiBrightBlack': defaultColors.gunmetal,
     'terminal.ansiBrightBlue': defaultColors.mainColor.monokaiBlue,
@@ -143,13 +143,13 @@ const defaultTheme = {
     'terminal.ansiRed': defaultColors.mainColor.razzmatazz,
     'terminal.ansiWhite': defaultColors.mainColor.monokaiHaze,
     'terminal.ansiYellow': defaultColors.mainColor.straw,
-    'terminal.background': defaultColors.eerieBlack,
+    'terminal.background': defaultColors.background,
     'terminal.foreground': defaultColors.mainColor.monokaiHaze,
     'terminalCursor.background': defaultColors.mainColor.monokaiHaze,
     'terminalCursor.foreground': defaultColors.mainColor.monokaiHaze,
 
-    'titleBar.activeBackground': defaultColors.eerieBlack,
-    'titleBar.inactiveBackground': defaultColors.eerieBlack,
+    'titleBar.activeBackground': defaultColors.background,
+    'titleBar.inactiveBackground': defaultColors.background,
 
     'widget.border': defaultColors.rifleGreen,
     'widget.shadow': '#00000098',

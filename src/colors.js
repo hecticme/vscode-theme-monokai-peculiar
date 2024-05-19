@@ -19,7 +19,7 @@ const defaultColors = {
   rifleGreen: '#414339',
   oliveGray: '#75715e',
   gunmetal: '#282b2b',
-  eerieBlack: '#1d2021',
+  background: '#1d2021',
   swamp: '#1e1f1c',
   charcoal: '#404040',
   charcoalGray: '#a3a3a3',
