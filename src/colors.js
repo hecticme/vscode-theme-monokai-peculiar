@@ -18,6 +18,7 @@ const defaultColors = {
     base: '#414339',
     lighter: '#a3a3a3',
   },
+  shadow: '#00000098',
 
   lightGray: '#cccccc',
 

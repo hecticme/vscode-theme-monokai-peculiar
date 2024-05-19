@@ -82,17 +82,17 @@ const defaultTheme = {
     'panelTitle.activeForeground': defaultColors.haze,
     'panelTitle.inactiveForeground': defaultColors.oliveGray,
 
-    'peekView.border': defaultColors.oliveGray,
+    'peekView.border': defaultColors.border.lighter,
     'peekViewEditor.background': defaultColors.background,
     'peekViewEditor.matchHighlightBackground': defaultColors.oliveGray,
     'peekViewResult.background': defaultColors.background,
     'peekViewResult.matchHighlightBackground': defaultColors.oliveGray,
-    'peekViewResult.selectionBackground': defaultColors.rifleGreen,
+    'peekViewResult.selectionBackground': '#373c3d',
     'peekViewTitle.background': defaultColors.background,
 
     'pickerGroup.foreground': defaultColors.oliveGray,
 
-    'ports.iconRunningProcessForeground': '#ccccc7',
+    'ports.iconRunningProcessForeground': defaultColors.lightGray,
 
     'progressBar.background': defaultColors.oliveGray,
 
@@ -151,8 +151,8 @@ const defaultTheme = {
     'titleBar.activeBackground': defaultColors.background,
     'titleBar.inactiveBackground': defaultColors.background,
 
-    'widget.border': defaultColors.rifleGreen,
-    'widget.shadow': '#00000098',
+    'widget.border': defaultColors.border.base,
+    'widget.shadow': defaultColors.shadow,
   },
   tokenColors: [
     {
