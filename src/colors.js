@@ -15,7 +15,7 @@ const defaultColors = {
   comment: '#88846f',
   whitespace: '#464741',
   border: {
-    base: '#404040',
+    base: '#414339',
     lighter: '#a3a3a3',
   },
 
