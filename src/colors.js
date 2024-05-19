@@ -15,6 +15,8 @@ const defaultColors = {
   comment: '#88846f',
   whitespace: '#464741',
 
+  lightGray: '#cccccc',
+
   crimson: '#F44747',
   rifleGreen: '#414339',
   oliveGray: '#75715e',

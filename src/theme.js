@@ -72,7 +72,7 @@ const defaultTheme = {
 
     'menu.background': defaultColors.background,
     'menu.border': defaultColors.charcoal,
-    'menu.foreground': defaultColors.charcoalGray,
+    'menu.foreground': defaultColors.lightGray,
 
     'minimap.selectionHighlight': '#878b9180',
 
