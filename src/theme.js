@@ -5,16 +5,16 @@ const defaultTheme = {
   $schema: 'vscode://schemas/color-theme',
   type: 'dark',
   colors: {
-    'activityBar.activeBorder': defaultColors.mainColor.haze,
+    'activityBar.activeBorder': defaultColors.haze,
     'activityBar.background': defaultColors.background,
-    'activityBar.foreground': defaultColors.mainColor.haze,
-    'activityBarBadge.background': defaultColors.mainColor.haze,
+    'activityBar.foreground': defaultColors.haze,
+    'activityBarBadge.background': defaultColors.haze,
     'activityBarBadge.foreground': defaultColors.background,
 
-    'badge.background': defaultColors.mainColor.haze,
+    'badge.background': defaultColors.haze,
     'badge.foreground': defaultColors.background,
 
-    'button.background': defaultColors.mainColor.haze,
+    'button.background': defaultColors.haze,
     'button.foreground': defaultColors.background,
 
     'debugToolBar.background': defaultColors.swamp,
@@ -29,14 +29,14 @@ const defaultTheme = {
     'editor.findMatchBackground': '#83a59870',
     'editor.findMatchHighlightBackground': '#fe801930',
     'editor.findRangeHighlightBackground': '#83a59870',
-    'editor.foreground': defaultColors.mainColor.haze,
+    'editor.foreground': defaultColors.haze,
     'editor.hoverHighlightBackground': '#689d6a50',
     'editor.lineHighlightBackground': '#3c383660',
     'editor.selectionBackground': '#689d6a40',
     'editor.selectionHighlightBackground': '#fabd2f40',
     'editor.wordHighlightBackground': '#4a4a7680',
     'editor.wordHighlightStrongBackground': '#6a6a9680',
-    'editorCursor.foreground': defaultColors.mainColor.haze,
+    'editorCursor.foreground': defaultColors.haze,
     'editorGroup.border': defaultColors.charcoal,
     'editorGroup.dropBackground': '#41433980',
     'editorGroupHeader.noTabsBackground': defaultColors.background,
@@ -58,7 +58,7 @@ const defaultTheme = {
     'input.background': defaultColors.gunmetal,
     'inputOption.activeBorder': defaultColors.oliveGray,
     'inputValidation.errorBackground': '#90274a',
-    'inputValidation.errorBorder': defaultColors.mainColor.razzmatazz,
+    'inputValidation.errorBorder': defaultColors.razzmatazz,
     'inputValidation.infoBackground': '#546190',
     'inputValidation.infoBorder': '#819aff',
     'inputValidation.warningBackground': '#848528',
@@ -66,7 +66,7 @@ const defaultTheme = {
 
     'list.activeSelectionBackground': defaultColors.blueGray,
     'list.dropBackground': defaultColors.gunmetal,
-    'list.highlightForeground': defaultColors.mainColor.haze,
+    'list.highlightForeground': defaultColors.haze,
     'list.hoverBackground': defaultColors.blueGray,
     'list.inactiveSelectionBackground': '#47526633',
 
@@ -78,8 +78,8 @@ const defaultTheme = {
 
     'panel.border': defaultColors.charcoal,
 
-    'panelTitle.activeBorder': defaultColors.mainColor.haze,
-    'panelTitle.activeForeground': defaultColors.mainColor.haze,
+    'panelTitle.activeBorder': defaultColors.haze,
+    'panelTitle.activeForeground': defaultColors.haze,
     'panelTitle.inactiveForeground': defaultColors.oliveGray,
 
     'peekView.border': defaultColors.oliveGray,
@@ -115,12 +115,12 @@ const defaultTheme = {
     'statusBar.debuggingBackground': defaultColors.background,
     'statusBar.noFolderBackground': defaultColors.background,
     'statusBarItem.remoteBackground': defaultColors.background,
-    'statusBarItem.remoteForeground': defaultColors.mainColor.haze,
-    'statusBarItem.remoteHoverForeground': defaultColors.mainColor.haze,
+    'statusBarItem.remoteForeground': defaultColors.haze,
+    'statusBarItem.remoteHoverForeground': defaultColors.haze,
 
-    'tab.activeForeground': defaultColors.mainColor.haze,
+    'tab.activeForeground': defaultColors.haze,
     'tab.activeBackground': defaultColors.background,
-    'tab.activeBorder': defaultColors.mainColor.haze,
+    'tab.activeBorder': defaultColors.haze,
     'tab.border': transparent,
     'tab.hoverBackground': defaultColors.blueGray,
     'tab.inactiveBackground': defaultColors.background,
@@ -128,25 +128,25 @@ const defaultTheme = {
     'tab.lastPinnedBorder': defaultColors.charcoal,
 
     'terminal.ansiBlack': defaultColors.background,
-    'terminal.ansiBlue': defaultColors.mainColor.blue,
+    'terminal.ansiBlue': defaultColors.blue,
     'terminal.ansiBrightBlack': defaultColors.gunmetal,
-    'terminal.ansiBrightBlue': defaultColors.mainColor.blue,
-    'terminal.ansiBrightCyan': defaultColors.mainColor.cyan,
-    'terminal.ansiBrightGreen': defaultColors.mainColor.green,
-    'terminal.ansiBrightMagenta': defaultColors.mainColor.lavendar,
-    'terminal.ansiBrightRed': defaultColors.mainColor.razzmatazz,
-    'terminal.ansiBrightWhite': defaultColors.mainColor.haze,
-    'terminal.ansiBrightYellow': defaultColors.mainColor.straw,
-    'terminal.ansiCyan': defaultColors.mainColor.cyan,
-    'terminal.ansiGreen': defaultColors.mainColor.green,
-    'terminal.ansiMagenta': defaultColors.mainColor.lavendar,
-    'terminal.ansiRed': defaultColors.mainColor.razzmatazz,
-    'terminal.ansiWhite': defaultColors.mainColor.haze,
-    'terminal.ansiYellow': defaultColors.mainColor.straw,
+    'terminal.ansiBrightBlue': defaultColors.blue,
+    'terminal.ansiBrightCyan': defaultColors.cyan,
+    'terminal.ansiBrightGreen': defaultColors.green,
+    'terminal.ansiBrightMagenta': defaultColors.lavendar,
+    'terminal.ansiBrightRed': defaultColors.razzmatazz,
+    'terminal.ansiBrightWhite': defaultColors.haze,
+    'terminal.ansiBrightYellow': defaultColors.straw,
+    'terminal.ansiCyan': defaultColors.cyan,
+    'terminal.ansiGreen': defaultColors.green,
+    'terminal.ansiMagenta': defaultColors.lavendar,
+    'terminal.ansiRed': defaultColors.razzmatazz,
+    'terminal.ansiWhite': defaultColors.haze,
+    'terminal.ansiYellow': defaultColors.straw,
     'terminal.background': defaultColors.background,
-    'terminal.foreground': defaultColors.mainColor.haze,
-    'terminalCursor.background': defaultColors.mainColor.haze,
-    'terminalCursor.foreground': defaultColors.mainColor.haze,
+    'terminal.foreground': defaultColors.haze,
+    'terminalCursor.background': defaultColors.haze,
+    'terminalCursor.foreground': defaultColors.haze,
 
     'titleBar.activeBackground': defaultColors.background,
     'titleBar.inactiveBackground': defaultColors.background,
@@ -163,7 +163,7 @@ const defaultTheme = {
         'variable.legacy.builtin.python',
       ],
       settings: {
-        foreground: defaultColors.mainColor.haze,
+        foreground: defaultColors.haze,
       },
     },
     {
@@ -175,7 +175,7 @@ const defaultTheme = {
     {
       scope: 'string',
       settings: {
-        foreground: defaultColors.mainColor.straw,
+        foreground: defaultColors.straw,
       },
     },
     {
@@ -184,7 +184,7 @@ const defaultTheme = {
         'punctuation.section.embedded',
       ],
       settings: {
-        foreground: defaultColors.mainColor.razzmatazz,
+        foreground: defaultColors.razzmatazz,
       },
     },
     {
@@ -192,121 +192,121 @@ const defaultTheme = {
         'meta.template.expression',
       ],
       settings: {
-        foreground: defaultColors.mainColor.haze,
+        foreground: defaultColors.haze,
       },
     },
     {
       scope: 'constant.numeric',
       settings: {
-        foreground: defaultColors.mainColor.lavendar,
+        foreground: defaultColors.lavendar,
       },
     },
     {
       scope: 'constant.language',
       settings: {
-        foreground: defaultColors.mainColor.lavendar,
+        foreground: defaultColors.lavendar,
       },
     },
     {
       scope: 'constant.character, constant.other',
       settings: {
-        foreground: defaultColors.mainColor.lavendar,
+        foreground: defaultColors.lavendar,
       },
     },
     {
       scope: 'variable',
       settings: {
-        foreground: defaultColors.mainColor.haze,
+        foreground: defaultColors.haze,
         fontStyle: '',
       },
     },
     {
       scope: 'keyword',
       settings: {
-        foreground: defaultColors.mainColor.razzmatazz,
+        foreground: defaultColors.razzmatazz,
       },
     },
     {
       scope: 'storage',
       settings: {
-        foreground: defaultColors.mainColor.razzmatazz,
+        foreground: defaultColors.razzmatazz,
         fontStyle: '',
       },
     },
     {
       scope: 'storage.type',
       settings: {
-        foreground: defaultColors.mainColor.blue,
+        foreground: defaultColors.blue,
         fontStyle: 'italic',
       },
     },
     {
       scope: 'entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution',
       settings: {
-        foreground: defaultColors.mainColor.emerald,
+        foreground: defaultColors.emerald,
         fontStyle: '',
       },
     },
     {
       scope: 'entity.other.inherited-class',
       settings: {
-        foreground: defaultColors.mainColor.emerald,
+        foreground: defaultColors.emerald,
         fontStyle: 'italic',
       },
     },
     {
       scope: 'entity.name.function',
       settings: {
-        foreground: defaultColors.mainColor.green,
+        foreground: defaultColors.green,
         fontStyle: '',
       },
     },
     {
       scope: 'variable.parameter',
       settings: {
-        foreground: defaultColors.mainColor.orange,
+        foreground: defaultColors.orange,
         fontStyle: 'italic',
       },
     },
     {
       scope: 'entity.name.tag',
       settings: {
-        foreground: defaultColors.mainColor.razzmatazz,
+        foreground: defaultColors.razzmatazz,
         fontStyle: '',
       },
     },
     {
       scope: 'entity.other.attribute-name',
       settings: {
-        foreground: defaultColors.mainColor.green,
+        foreground: defaultColors.green,
         fontStyle: '',
       },
     },
     {
       scope: 'support.function',
       settings: {
-        foreground: defaultColors.mainColor.blue,
+        foreground: defaultColors.blue,
         fontStyle: '',
       },
     },
     {
       scope: 'support.constant',
       settings: {
-        foreground: defaultColors.mainColor.blue,
+        foreground: defaultColors.blue,
         fontStyle: '',
       },
     },
     {
       scope: 'support.type, support.class',
       settings: {
-        foreground: defaultColors.mainColor.blue,
+        foreground: defaultColors.blue,
         fontStyle: 'italic',
       },
     },
     {
       scope: 'support.class.component',
       settings: {
-        foreground: defaultColors.mainColor.emerald,
+        foreground: defaultColors.emerald,
         fontStyle: '',
       },
     },
@@ -332,7 +332,7 @@ const defaultTheme = {
     {
       scope: 'meta.structure.dictionary.json string.quoted.double.json',
       settings: {
-        foreground: defaultColors.mainColor.haze,
+        foreground: defaultColors.haze,
       },
     },
     {
@@ -344,19 +344,19 @@ const defaultTheme = {
     {
       scope: 'markup.deleted',
       settings: {
-        foreground: defaultColors.mainColor.razzmatazz,
+        foreground: defaultColors.razzmatazz,
       },
     },
     {
       scope: 'markup.inserted',
       settings: {
-        foreground: defaultColors.mainColor.green,
+        foreground: defaultColors.green,
       },
     },
     {
       scope: 'markup.changed',
       settings: {
-        foreground: defaultColors.mainColor.straw,
+        foreground: defaultColors.straw,
       },
     },
     {
@@ -368,44 +368,44 @@ const defaultTheme = {
     {
       scope: 'entity.name.filename.find-in-files',
       settings: {
-        foreground: defaultColors.mainColor.straw,
+        foreground: defaultColors.straw,
       },
     },
     {
       scope: 'markup.quote',
       settings: {
-        foreground: defaultColors.mainColor.razzmatazz,
+        foreground: defaultColors.razzmatazz,
       },
     },
     {
       scope: 'markup.list',
       settings: {
-        foreground: defaultColors.mainColor.straw,
+        foreground: defaultColors.straw,
       },
     },
     {
       scope: 'markup.bold, markup.italic',
       settings: {
-        foreground: defaultColors.mainColor.blue,
+        foreground: defaultColors.blue,
       },
     },
     {
       scope: 'markup.inline.raw',
       settings: {
-        foreground: defaultColors.mainColor.orange,
+        foreground: defaultColors.orange,
         fontStyle: '',
       },
     },
     {
       scope: 'markup.heading',
       settings: {
-        foreground: defaultColors.mainColor.green,
+        foreground: defaultColors.green,
       },
     },
     {
       scope: 'markup.heading.setext',
       settings: {
-        foreground: defaultColors.mainColor.green,
+        foreground: defaultColors.green,
         fontStyle: 'bold',
       },
     },
@@ -431,13 +431,13 @@ const defaultTheme = {
     {
       scope: 'string.other.link.title.markdown,string.other.link.description.markdown',
       settings: {
-        foreground: defaultColors.mainColor.lavendar,
+        foreground: defaultColors.lavendar,
       },
     },
     {
       scope: 'markup.underline.link.markdown,markup.underline.link.image.markdown',
       settings: {
-        foreground: defaultColors.mainColor.straw,
+        foreground: defaultColors.straw,
       },
     },
     {
@@ -455,7 +455,7 @@ const defaultTheme = {
     {
       scope: 'markup.list.unnumbered.markdown, markup.list.numbered.markdown',
       settings: {
-        foreground: defaultColors.mainColor.haze,
+        foreground: defaultColors.haze,
       },
     },
     {
@@ -463,7 +463,7 @@ const defaultTheme = {
         'punctuation.definition.list.begin.markdown',
       ],
       settings: {
-        foreground: defaultColors.mainColor.green,
+        foreground: defaultColors.green,
       },
     },
     {
@@ -493,13 +493,13 @@ const defaultTheme = {
     {
       scope: 'variable.language',
       settings: {
-        foreground: defaultColors.mainColor.orange,
+        foreground: defaultColors.orange,
       },
     },
     {
       scope: 'entity.name.type.instance.jsdoc',
       settings: {
-        foreground: defaultColors.mainColor.emerald,
+        foreground: defaultColors.emerald,
         fontStyle: '',
       },
     },
