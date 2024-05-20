@@ -19,6 +19,10 @@ const defaultColors = {
     lighter: '#a3a3a3',
   },
   shadow: '#00000098',
+  selection: [
+    '#373c3d',
+    '#47526640',
+  ],
 
   lightGray: '#cccccc',
 
@@ -29,7 +33,6 @@ const defaultColors = {
   background: '#1d2021',
   swamp: '#1e1f1c',
   slateGray: '#737373',
-  blueGray: '#47526640',
 }
 
 const transparent = '#00000000'

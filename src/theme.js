@@ -49,7 +49,7 @@ const defaultTheme = {
     'editorLineNumber.foreground': '#90908a',
     'editorSuggestWidget.background': defaultColors.background,
     'editorSuggestWidget.border': defaultColors.oliveGray,
-    'editorSuggestWidget.selectedBackground': '#373c3d',
+    'editorSuggestWidget.selectedBackground': defaultColors.selection[0],
     'editorWhitespace.foreground': defaultColors.whitespace,
     'editorWidget.background': defaultColors.background,
 
@@ -64,10 +64,10 @@ const defaultTheme = {
     'inputValidation.warningBackground': '#848528',
     'inputValidation.warningBorder': '#e2e22e',
 
-    'list.activeSelectionBackground': defaultColors.blueGray,
+    'list.activeSelectionBackground': defaultColors.selection[1],
     'list.dropBackground': defaultColors.gunmetal,
     'list.highlightForeground': defaultColors.haze,
-    'list.hoverBackground': defaultColors.blueGray,
+    'list.hoverBackground': defaultColors.selection[1],
     'list.inactiveSelectionBackground': '#47526633',
 
     'menu.background': defaultColors.background,
@@ -87,7 +87,7 @@ const defaultTheme = {
     'peekViewEditor.matchHighlightBackground': defaultColors.oliveGray,
     'peekViewResult.background': defaultColors.background,
     'peekViewResult.matchHighlightBackground': defaultColors.oliveGray,
-    'peekViewResult.selectionBackground': '#373c3d',
+    'peekViewResult.selectionBackground': defaultColors.selection[0],
     'peekViewTitle.background': defaultColors.background,
 
     'pickerGroup.foreground': defaultColors.oliveGray,
@@ -97,7 +97,7 @@ const defaultTheme = {
     'progressBar.background': defaultColors.oliveGray,
 
     'quickInput.background': defaultColors.background,
-    'quickInputList.focusBackground': '#373c3d',
+    'quickInputList.focusBackground': defaultColors.selection[0],
 
     'scrollbar.shadow': transparent,
     'scrollbarSlider.activeBackground': '#565b66b3',
@@ -122,7 +122,7 @@ const defaultTheme = {
     'tab.activeBackground': defaultColors.background,
     'tab.activeBorder': defaultColors.haze,
     'tab.border': transparent,
-    'tab.hoverBackground': defaultColors.blueGray,
+    'tab.hoverBackground': defaultColors.selection[1],
     'tab.inactiveBackground': defaultColors.background,
     'tab.inactiveForeground': defaultColors.lightGray,
     'tab.lastPinnedBorder': defaultColors.border.base,
