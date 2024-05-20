@@ -31,10 +31,7 @@ const defaultColors = {
   lightGray: '#cccccc',
 
   crimson: '#F44747',
-  rifleGreen: '#414339',
   oliveGray: '#75715e',
-  swamp: '#1e1f1c',
-  slateGray: '#737373',
 }
 
 const transparent = '#00000000'
