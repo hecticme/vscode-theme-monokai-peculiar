@@ -17,13 +17,13 @@ const defaultTheme = {
     'button.background': defaultColors.haze,
     'button.foreground': defaultColors.background[0],
 
-    'debugToolBar.background': defaultColors.swamp,
+    'debugToolBar.background': defaultColors.background[0],
 
     'diffEditor.insertedTextBackground': defaultColors.diff.inserted,
     'diffEditor.removedTextBackground': defaultColors.diff.removed,
 
     'dropdown.background': defaultColors.background[1],
-    'dropdown.listBackground': defaultColors.swamp,
+    'dropdown.listBackground': defaultColors.background[0],
 
     'editor.background': defaultColors.background[0],
     'editor.findMatchBackground': '#83a59870',
