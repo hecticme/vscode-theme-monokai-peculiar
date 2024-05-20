@@ -6,26 +6,26 @@ const defaultTheme = {
   type: 'dark',
   colors: {
     'activityBar.activeBorder': defaultColors.haze,
-    'activityBar.background': defaultColors.background,
+    'activityBar.background': defaultColors.background[0],
     'activityBar.foreground': defaultColors.haze,
     'activityBarBadge.background': defaultColors.haze,
-    'activityBarBadge.foreground': defaultColors.background,
+    'activityBarBadge.foreground': defaultColors.background[0],
 
     'badge.background': defaultColors.haze,
-    'badge.foreground': defaultColors.background,
+    'badge.foreground': defaultColors.background[0],
 
     'button.background': defaultColors.haze,
-    'button.foreground': defaultColors.background,
+    'button.foreground': defaultColors.background[0],
 
     'debugToolBar.background': defaultColors.swamp,
 
     'diffEditor.insertedTextBackground': defaultColors.diff.inserted,
     'diffEditor.removedTextBackground': defaultColors.diff.removed,
 
-    'dropdown.background': defaultColors.gunmetal,
+    'dropdown.background': defaultColors.background[1],
     'dropdown.listBackground': defaultColors.swamp,
 
-    'editor.background': defaultColors.background,
+    'editor.background': defaultColors.background[0],
     'editor.findMatchBackground': '#83a59870',
     'editor.findMatchHighlightBackground': '#fe801930',
     'editor.findRangeHighlightBackground': '#83a59870',
@@ -39,23 +39,23 @@ const defaultTheme = {
     'editorCursor.foreground': defaultColors.haze,
     'editorGroup.border': defaultColors.border[0],
     'editorGroup.dropBackground': '#41433980',
-    'editorGroupHeader.noTabsBackground': defaultColors.background,
-    'editorGroupHeader.tabsBackground': defaultColors.background,
-    'editorHoverWidget.background': defaultColors.background,
+    'editorGroupHeader.noTabsBackground': defaultColors.background[0],
+    'editorGroupHeader.tabsBackground': defaultColors.background[0],
+    'editorHoverWidget.background': defaultColors.background[0],
     'editorHoverWidget.border': defaultColors.oliveGray,
     'editorIndentGuide.activeBackground1': '#767771',
     'editorIndentGuide.background1': defaultColors.whitespace,
     'editorLineNumber.activeForeground': '#c2c2bf',
     'editorLineNumber.foreground': '#90908a',
-    'editorSuggestWidget.background': defaultColors.background,
+    'editorSuggestWidget.background': defaultColors.background[0],
     'editorSuggestWidget.border': defaultColors.oliveGray,
     'editorSuggestWidget.selectedBackground': defaultColors.selection[0],
     'editorWhitespace.foreground': defaultColors.whitespace,
-    'editorWidget.background': defaultColors.background,
+    'editorWidget.background': defaultColors.background[0],
 
     focusBorder: defaultColors.border[1],
 
-    'input.background': defaultColors.gunmetal,
+    'input.background': defaultColors.background[1],
     'inputOption.activeBorder': defaultColors.oliveGray,
     'inputValidation.errorBackground': '#90274a',
     'inputValidation.errorBorder': defaultColors.razzmatazz,
@@ -65,12 +65,12 @@ const defaultTheme = {
     'inputValidation.warningBorder': '#e2e22e',
 
     'list.activeSelectionBackground': defaultColors.selection[1],
-    'list.dropBackground': defaultColors.gunmetal,
+    'list.dropBackground': defaultColors.background[1],
     'list.highlightForeground': defaultColors.haze,
     'list.hoverBackground': defaultColors.selection[1],
     'list.inactiveSelectionBackground': '#47526633',
 
-    'menu.background': defaultColors.background,
+    'menu.background': defaultColors.background[0],
     'menu.border': defaultColors.border[0],
     'menu.foreground': defaultColors.lightGray,
 
@@ -83,12 +83,12 @@ const defaultTheme = {
     'panelTitle.inactiveForeground': defaultColors.oliveGray,
 
     'peekView.border': defaultColors.border[1],
-    'peekViewEditor.background': defaultColors.background,
+    'peekViewEditor.background': defaultColors.background[0],
     'peekViewEditor.matchHighlightBackground': defaultColors.oliveGray,
-    'peekViewResult.background': defaultColors.background,
+    'peekViewResult.background': defaultColors.background[0],
     'peekViewResult.matchHighlightBackground': defaultColors.oliveGray,
     'peekViewResult.selectionBackground': defaultColors.selection[0],
-    'peekViewTitle.background': defaultColors.background,
+    'peekViewTitle.background': defaultColors.background[0],
 
     'pickerGroup.foreground': defaultColors.oliveGray,
 
@@ -96,7 +96,7 @@ const defaultTheme = {
 
     'progressBar.background': defaultColors.oliveGray,
 
-    'quickInput.background': defaultColors.background,
+    'quickInput.background': defaultColors.background[0],
     'quickInputList.focusBackground': defaultColors.selection[0],
 
     'scrollbar.shadow': transparent,
@@ -108,28 +108,28 @@ const defaultTheme = {
 
     'settings.focusedRowBackground': '#2c2c2b',
 
-    'sideBar.background': defaultColors.background,
-    'sideBarSectionHeader.background': defaultColors.background,
+    'sideBar.background': defaultColors.background[0],
+    'sideBarSectionHeader.background': defaultColors.background[0],
 
-    'statusBar.background': defaultColors.background,
-    'statusBar.debuggingBackground': defaultColors.background,
-    'statusBar.noFolderBackground': defaultColors.background,
-    'statusBarItem.remoteBackground': defaultColors.background,
+    'statusBar.background': defaultColors.background[0],
+    'statusBar.debuggingBackground': defaultColors.background[0],
+    'statusBar.noFolderBackground': defaultColors.background[0],
+    'statusBarItem.remoteBackground': defaultColors.background[0],
     'statusBarItem.remoteForeground': defaultColors.haze,
     'statusBarItem.remoteHoverForeground': defaultColors.haze,
 
     'tab.activeForeground': defaultColors.haze,
-    'tab.activeBackground': defaultColors.background,
+    'tab.activeBackground': defaultColors.background[0],
     'tab.activeBorder': defaultColors.haze,
     'tab.border': transparent,
     'tab.hoverBackground': defaultColors.selection[1],
-    'tab.inactiveBackground': defaultColors.background,
+    'tab.inactiveBackground': defaultColors.background[0],
     'tab.inactiveForeground': defaultColors.lightGray,
     'tab.lastPinnedBorder': defaultColors.border[0],
 
-    'terminal.ansiBlack': defaultColors.background,
+    'terminal.ansiBlack': defaultColors.background[0],
     'terminal.ansiBlue': defaultColors.blue,
-    'terminal.ansiBrightBlack': defaultColors.gunmetal,
+    'terminal.ansiBrightBlack': defaultColors.background[1],
     'terminal.ansiBrightBlue': defaultColors.blue,
     'terminal.ansiBrightCyan': defaultColors.cyan,
     'terminal.ansiBrightGreen': defaultColors.green,
@@ -143,13 +143,13 @@ const defaultTheme = {
     'terminal.ansiRed': defaultColors.razzmatazz,
     'terminal.ansiWhite': defaultColors.haze,
     'terminal.ansiYellow': defaultColors.straw,
-    'terminal.background': defaultColors.background,
+    'terminal.background': defaultColors.background[0],
     'terminal.foreground': defaultColors.haze,
     'terminalCursor.background': defaultColors.haze,
     'terminalCursor.foreground': defaultColors.haze,
 
-    'titleBar.activeBackground': defaultColors.background,
-    'titleBar.inactiveBackground': defaultColors.background,
+    'titleBar.activeBackground': defaultColors.background[0],
+    'titleBar.inactiveBackground': defaultColors.background[0],
 
     'widget.border': defaultColors.border[0],
     'widget.shadow': defaultColors.shadow,

@@ -23,14 +23,16 @@ const defaultColors = {
     '#373c3d',
     '#47526640',
   ],
+  background: [
+    '#1d2021',
+    '#282b2b',
+  ],
 
   lightGray: '#cccccc',
 
   crimson: '#F44747',
   rifleGreen: '#414339',
   oliveGray: '#75715e',
-  gunmetal: '#282b2b',
-  background: '#1d2021',
   swamp: '#1e1f1c',
   slateGray: '#737373',
 }
