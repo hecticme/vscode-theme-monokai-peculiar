@@ -43,13 +43,13 @@ const defaultTheme = {
     'editorGroupHeader.noTabsBackground': defaultColors.background[0],
     'editorGroupHeader.tabsBackground': defaultColors.background[0],
     'editorHoverWidget.background': defaultColors.background[0],
-    'editorHoverWidget.border': defaultColors.oliveGray,
+    'editorHoverWidget.border': defaultColors.border[1],
     'editorIndentGuide.activeBackground1': '#767771',
     'editorIndentGuide.background1': defaultColors.whitespace,
-    'editorLineNumber.activeForeground': '#c2c2bf',
-    'editorLineNumber.foreground': '#90908a',
+    'editorLineNumber.activeForeground': defaultColors.foreground[0],
+    'editorLineNumber.foreground': defaultColors.foreground[2],
     'editorSuggestWidget.background': defaultColors.background[0],
-    'editorSuggestWidget.border': defaultColors.oliveGray,
+    'editorSuggestWidget.border': defaultColors.border[1],
     'editorSuggestWidget.selectedBackground': defaultColors.selection[0],
     'editorWhitespace.foreground': defaultColors.whitespace,
     'editorWidget.background': defaultColors.background[0],
@@ -57,7 +57,7 @@ const defaultTheme = {
     focusBorder: defaultColors.border[1],
 
     'input.background': defaultColors.background[1],
-    'inputOption.activeBorder': defaultColors.oliveGray,
+    'inputOption.activeBorder': defaultColors.border[1],
     'inputValidation.errorBackground': '#90274a',
     'inputValidation.errorBorder': defaultColors.razzmatazz,
     'inputValidation.infoBackground': '#546190',
@@ -73,7 +73,7 @@ const defaultTheme = {
 
     'menu.background': defaultColors.background[0],
     'menu.border': defaultColors.border[0],
-    'menu.foreground': defaultColors.lightGray,
+    'menu.foreground': defaultColors.foreground[0],
 
     'minimap.selectionHighlight': '#878b9180',
 
@@ -81,7 +81,7 @@ const defaultTheme = {
 
     'panelTitle.activeBorder': defaultColors.haze,
     'panelTitle.activeForeground': defaultColors.haze,
-    'panelTitle.inactiveForeground': defaultColors.oliveGray,
+    'panelTitle.inactiveForeground': defaultColors.foreground[1],
 
     'peekView.border': defaultColors.border[1],
     'peekViewEditor.background': defaultColors.background[0],
@@ -93,7 +93,7 @@ const defaultTheme = {
 
     'pickerGroup.foreground': defaultColors.oliveGray,
 
-    'ports.iconRunningProcessForeground': defaultColors.lightGray,
+    'ports.iconRunningProcessForeground': defaultColors.foreground[0],
 
     'progressBar.background': defaultColors.oliveGray,
 
@@ -107,7 +107,7 @@ const defaultTheme = {
 
     'selection.background': '#878b9180',
 
-    'settings.focusedRowBackground': '#2c2c2b',
+    'settings.focusedRowBackground': defaultColors.selection[0],
 
     'sideBar.background': defaultColors.background[0],
     'sideBarSectionHeader.background': defaultColors.background[0],
@@ -125,7 +125,7 @@ const defaultTheme = {
     'tab.border': transparent,
     'tab.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.25),
     'tab.inactiveBackground': defaultColors.background[0],
-    'tab.inactiveForeground': defaultColors.lightGray,
+    'tab.inactiveForeground': defaultColors.foreground[0],
     'tab.lastPinnedBorder': defaultColors.border[0],
 
     'terminal.ansiBlack': defaultColors.background[0],

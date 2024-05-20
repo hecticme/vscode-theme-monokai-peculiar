@@ -8,6 +8,7 @@ const defaultColors = {
   razzmatazz: '#f92672',
   lavendar: '#ae81ff',
   cyan: '#a1efe4',
+  crimson: '#F44747',
   diff: {
     inserted: '#4b661680',
     removed: '#90274a70',
@@ -22,15 +23,17 @@ const defaultColors = {
   selection: [
     '#373c3d',
     '#475266',
+    '#a78bfa',
   ],
   background: [
     '#1d2021',
     '#282b2b',
   ],
+  foreground: [
+    '#cccccc',
+    '#7a7a76',
+  ],
 
-  lightGray: '#cccccc',
-
-  crimson: '#F44747',
   oliveGray: '#75715e',
 }
 
