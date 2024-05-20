@@ -101,9 +101,9 @@ const defaultTheme = {
     'quickInputList.focusBackground': defaultColors.selection[0],
 
     'scrollbar.shadow': transparent,
-    'scrollbarSlider.activeBackground': '#565b66b3',
-    'scrollbarSlider.background': '#565b6666',
-    'scrollbarSlider.hoverBackground': '#565b6699',
+    'scrollbarSlider.activeBackground': hexWithAlpha(defaultColors.selection[1], 0.7),
+    'scrollbarSlider.background': hexWithAlpha(defaultColors.selection[1], 0.4),
+    'scrollbarSlider.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.6),
 
     'selection.background': '#878b9180',
 
