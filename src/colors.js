@@ -8,28 +8,33 @@ const defaultColors = {
   razzmatazz: '#f92672',
   lavendar: '#ae81ff',
   cyan: '#a1efe4',
+  crimson: '#F44747',
   diff: {
     inserted: '#4b661680',
     removed: '#90274a70',
   },
   comment: '#88846f',
   whitespace: '#464741',
-  border: {
-    base: '#414339',
-    lighter: '#a3a3a3',
-  },
+  border: [
+    '#414339',
+    '#a3a3a3',
+  ],
   shadow: '#00000098',
+  selection: [
+    '#373c3d',
+    '#475266',
+    '#a78bfa',
+  ],
+  background: [
+    '#1d2021',
+    '#282b2b',
+  ],
+  foreground: [
+    '#cccccc',
+    '#7a7a76',
+  ],
 
-  lightGray: '#cccccc',
-
-  crimson: '#F44747',
-  rifleGreen: '#414339',
   oliveGray: '#75715e',
-  gunmetal: '#282b2b',
-  background: '#1d2021',
-  swamp: '#1e1f1c',
-  slateGray: '#737373',
-  blueGray: '#47526640',
 }
 
 const transparent = '#00000000'
