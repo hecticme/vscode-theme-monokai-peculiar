@@ -1,4 +1,5 @@
 import { defaultColors, transparent } from './colors.js'
+import { hexWithAlpha } from './utils.js'
 
 const defaultTheme = {
   name: 'Monokai Peculiar',
@@ -64,11 +65,11 @@ const defaultTheme = {
     'inputValidation.warningBackground': '#848528',
     'inputValidation.warningBorder': '#e2e22e',
 
-    'list.activeSelectionBackground': defaultColors.selection[1],
+    'list.activeSelectionBackground': hexWithAlpha(defaultColors.selection[1], 0.25),
     'list.dropBackground': defaultColors.background[1],
     'list.highlightForeground': defaultColors.haze,
-    'list.hoverBackground': defaultColors.selection[1],
-    'list.inactiveSelectionBackground': '#47526633',
+    'list.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.25),
+    'list.inactiveSelectionBackground': hexWithAlpha(defaultColors.selection[1], 0.2),
 
     'menu.background': defaultColors.background[0],
     'menu.border': defaultColors.border[0],
@@ -122,7 +123,7 @@ const defaultTheme = {
     'tab.activeBackground': defaultColors.background[0],
     'tab.activeBorder': defaultColors.haze,
     'tab.border': transparent,
-    'tab.hoverBackground': defaultColors.selection[1],
+    'tab.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.25),
     'tab.inactiveBackground': defaultColors.background[0],
     'tab.inactiveForeground': defaultColors.lightGray,
     'tab.lastPinnedBorder': defaultColors.border[0],

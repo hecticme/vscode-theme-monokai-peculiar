@@ -21,7 +21,7 @@ const defaultColors = {
   shadow: '#00000098',
   selection: [
     '#373c3d',
-    '#47526640',
+    '#475266',
   ],
   background: [
     '#1d2021',
