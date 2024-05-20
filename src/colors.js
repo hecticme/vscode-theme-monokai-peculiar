@@ -14,10 +14,10 @@ const defaultColors = {
   },
   comment: '#88846f',
   whitespace: '#464741',
-  border: {
-    base: '#414339',
-    lighter: '#a3a3a3',
-  },
+  border: [
+    '#414339',
+    '#a3a3a3',
+  ],
   shadow: '#00000098',
   selection: [
     '#373c3d',

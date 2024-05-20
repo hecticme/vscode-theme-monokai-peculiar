@@ -37,7 +37,7 @@ const defaultTheme = {
     'editor.wordHighlightBackground': '#4a4a7680',
     'editor.wordHighlightStrongBackground': '#6a6a9680',
     'editorCursor.foreground': defaultColors.haze,
-    'editorGroup.border': defaultColors.border.base,
+    'editorGroup.border': defaultColors.border[0],
     'editorGroup.dropBackground': '#41433980',
     'editorGroupHeader.noTabsBackground': defaultColors.background,
     'editorGroupHeader.tabsBackground': defaultColors.background,
@@ -53,7 +53,7 @@ const defaultTheme = {
     'editorWhitespace.foreground': defaultColors.whitespace,
     'editorWidget.background': defaultColors.background,
 
-    focusBorder: defaultColors.border.lighter,
+    focusBorder: defaultColors.border[1],
 
     'input.background': defaultColors.gunmetal,
     'inputOption.activeBorder': defaultColors.oliveGray,
@@ -71,18 +71,18 @@ const defaultTheme = {
     'list.inactiveSelectionBackground': '#47526633',
 
     'menu.background': defaultColors.background,
-    'menu.border': defaultColors.border.base,
+    'menu.border': defaultColors.border[0],
     'menu.foreground': defaultColors.lightGray,
 
     'minimap.selectionHighlight': '#878b9180',
 
-    'panel.border': defaultColors.border.base,
+    'panel.border': defaultColors.border[0],
 
     'panelTitle.activeBorder': defaultColors.haze,
     'panelTitle.activeForeground': defaultColors.haze,
     'panelTitle.inactiveForeground': defaultColors.oliveGray,
 
-    'peekView.border': defaultColors.border.lighter,
+    'peekView.border': defaultColors.border[1],
     'peekViewEditor.background': defaultColors.background,
     'peekViewEditor.matchHighlightBackground': defaultColors.oliveGray,
     'peekViewResult.background': defaultColors.background,
@@ -125,7 +125,7 @@ const defaultTheme = {
     'tab.hoverBackground': defaultColors.selection[1],
     'tab.inactiveBackground': defaultColors.background,
     'tab.inactiveForeground': defaultColors.lightGray,
-    'tab.lastPinnedBorder': defaultColors.border.base,
+    'tab.lastPinnedBorder': defaultColors.border[0],
 
     'terminal.ansiBlack': defaultColors.background,
     'terminal.ansiBlue': defaultColors.blue,
@@ -151,7 +151,7 @@ const defaultTheme = {
     'titleBar.activeBackground': defaultColors.background,
     'titleBar.inactiveBackground': defaultColors.background,
 
-    'widget.border': defaultColors.border.base,
+    'widget.border': defaultColors.border[0],
     'widget.shadow': defaultColors.shadow,
   },
   tokenColors: [
