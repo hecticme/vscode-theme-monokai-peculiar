@@ -263,13 +263,6 @@ const defaultTheme = {
       },
     },
     {
-      scope: 'variable.parameter',
-      settings: {
-        foreground: defaultColors.orange,
-        fontStyle: 'italic',
-      },
-    },
-    {
       scope: 'entity.name.tag',
       settings: {
         foreground: defaultColors.razzmatazz,
