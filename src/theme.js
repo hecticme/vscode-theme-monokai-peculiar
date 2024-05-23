@@ -45,13 +45,13 @@ const defaultTheme = {
     'editorGroupHeader.noTabsBackground': defaultColors.background[0],
     'editorGroupHeader.tabsBackground': defaultColors.background[0],
     'editorHoverWidget.background': defaultColors.background[0],
-    'editorHoverWidget.border': defaultColors.border[1],
+    'editorHoverWidget.border': defaultColors.border[2],
     'editorIndentGuide.activeBackground1': '#767771',
     'editorIndentGuide.background1': defaultColors.whitespace,
     'editorLineNumber.activeForeground': defaultColors.foreground[0],
     'editorLineNumber.foreground': defaultColors.foreground[2],
     'editorSuggestWidget.background': defaultColors.background[0],
-    'editorSuggestWidget.border': defaultColors.border[1],
+    'editorSuggestWidget.border': defaultColors.border[2],
     'editorSuggestWidget.selectedBackground': defaultColors.selection[0],
     'editorWhitespace.foreground': defaultColors.whitespace,
     'editorWidget.background': defaultColors.background[0],
@@ -74,7 +74,7 @@ const defaultTheme = {
     'list.inactiveSelectionBackground': hexWithAlpha(defaultColors.selection[1], 0.2),
 
     'menu.background': defaultColors.background[0],
-    'menu.border': defaultColors.border[0],
+    'menu.border': defaultColors.border[2],
     'menu.foreground': defaultColors.foreground[0],
 
     'minimap.selectionHighlight': '#878b9180',
@@ -158,7 +158,7 @@ const defaultTheme = {
     'titleBar.activeBackground': defaultColors.background[0],
     'titleBar.inactiveBackground': defaultColors.background[0],
 
-    'widget.border': defaultColors.border[0],
+    'widget.border': defaultColors.border[2],
     'widget.shadow': defaultColors.shadow,
   },
   tokenColors: [
