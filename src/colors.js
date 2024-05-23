@@ -18,6 +18,7 @@ const defaultColors = {
   border: [
     '#363636',
     '#a3a3a3',
+    '#525252',
   ],
   shadow: '#00000098',
   selection: [
