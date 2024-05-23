@@ -6,6 +6,7 @@ const defaultTheme = {
   $schema: 'vscode://schemas/color-theme',
   type: 'dark',
   colors: {
+    'activityBar.border': defaultColors.border[0],
     'activityBar.activeBorder': defaultColors.haze,
     'activityBar.background': defaultColors.background[0],
     'activityBar.foreground': defaultColors.haze,
@@ -40,6 +41,7 @@ const defaultTheme = {
     'editorCursor.foreground': defaultColors.haze,
     'editorGroup.border': defaultColors.border[0],
     'editorGroup.dropBackground': '#41433980',
+    'editorGroupHeader.tabsBorder': defaultColors.border[0],
     'editorGroupHeader.noTabsBackground': defaultColors.background[0],
     'editorGroupHeader.tabsBackground': defaultColors.background[0],
     'editorHoverWidget.background': defaultColors.background[0],
@@ -109,10 +111,13 @@ const defaultTheme = {
 
     'settings.focusedRowBackground': defaultColors.selection[0],
 
+    'sideBar.border': defaultColors.border[0],
     'sideBar.background': defaultColors.background[0],
+    'sideBarSectionHeader.border': defaultColors.border[0],
     'sideBarSectionHeader.background': defaultColors.background[0],
 
     'statusBar.background': defaultColors.background[0],
+    'statusBar.border': defaultColors.border[0],
     'statusBar.debuggingBackground': defaultColors.background[0],
     'statusBar.noFolderBackground': defaultColors.background[0],
     'statusBarItem.remoteBackground': defaultColors.background[0],
@@ -122,7 +127,7 @@ const defaultTheme = {
     'tab.activeForeground': defaultColors.haze,
     'tab.activeBackground': defaultColors.background[0],
     'tab.activeBorder': defaultColors.haze,
-    'tab.border': transparent,
+    'tab.border': defaultColors.border[0],
     'tab.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.25),
     'tab.inactiveBackground': defaultColors.background[0],
     'tab.inactiveForeground': defaultColors.foreground[0],
@@ -149,6 +154,7 @@ const defaultTheme = {
     'terminalCursor.background': defaultColors.haze,
     'terminalCursor.foreground': defaultColors.haze,
 
+    'titleBar.border': defaultColors.border[0],
     'titleBar.activeBackground': defaultColors.background[0],
     'titleBar.inactiveBackground': defaultColors.background[0],
 
