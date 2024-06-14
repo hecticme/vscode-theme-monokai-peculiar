@@ -130,6 +130,7 @@ const defaultTheme = {
     'tab.border': defaultColors.border[0],
     'tab.inactiveBackground': defaultColors.background[0],
     'tab.inactiveForeground': defaultColors.foreground[0],
+    'tab.hoverForeground': defaultColors.haze,
     'tab.lastPinnedBorder': defaultColors.border[0],
 
     'terminal.ansiBlack': defaultColors.background[0],
