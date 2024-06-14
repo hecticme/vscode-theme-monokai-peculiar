@@ -102,7 +102,7 @@ const defaultTheme = {
     'quickInput.background': defaultColors.background[0],
     'quickInputList.focusBackground': defaultColors.selection[0],
 
-    'scrollbar.shadow': transparent,
+    'scrollbar.shadow': defaultColors.shadow,
     'scrollbarSlider.activeBackground': hexWithAlpha(defaultColors.selection[1], 0.7),
     'scrollbarSlider.background': hexWithAlpha(defaultColors.selection[1], 0.4),
     'scrollbarSlider.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.6),
