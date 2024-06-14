@@ -128,7 +128,6 @@ const defaultTheme = {
     'tab.activeBackground': defaultColors.background[0],
     'tab.activeBorder': defaultColors.haze,
     'tab.border': defaultColors.border[0],
-    'tab.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.25),
     'tab.inactiveBackground': defaultColors.background[0],
     'tab.inactiveForeground': defaultColors.foreground[0],
     'tab.lastPinnedBorder': defaultColors.border[0],
