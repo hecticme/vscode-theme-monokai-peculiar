@@ -7,7 +7,7 @@ const defaultTheme = {
   type: 'dark',
   colors: {
     'activityBar.border': defaultColors.border[0],
-    'activityBar.activeBorder': defaultColors.haze,
+    'activityBar.activeBorder': transparent,
     'activityBar.background': defaultColors.background[0],
     'activityBar.foreground': defaultColors.haze,
     'activityBarBadge.background': defaultColors.haze,
