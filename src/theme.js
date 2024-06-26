@@ -97,7 +97,7 @@ const defaultTheme = {
 
     'ports.iconRunningProcessForeground': defaultColors.foreground[0],
 
-    'progressBar.background': defaultColors.oliveGray,
+    'progressBar.background': defaultColors.haze,
 
     'quickInput.background': defaultColors.background[0],
     'quickInputList.focusBackground': defaultColors.selection[0],
