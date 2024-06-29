@@ -513,7 +513,6 @@ const defaultTheme = {
     {
       scope: 'support.type.property-name.json.comments, support.type.property-name.json',
       settings: {
-        foreground: defaultColors.blue,
         fontStyle: '',
       },
     },
