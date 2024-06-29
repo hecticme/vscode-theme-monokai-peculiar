@@ -306,8 +306,8 @@ const defaultTheme = {
     {
       scope: 'support.type, support.class',
       settings: {
-        foreground: defaultColors.blue,
-        fontStyle: 'italic',
+        foreground: defaultColors.emerald,
+        fontStyle: '',
       },
     },
     {
