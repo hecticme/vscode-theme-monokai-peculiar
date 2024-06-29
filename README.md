@@ -3,7 +3,8 @@
 </h1>
 
 > [!NOTE]
-> 🚧 This theme is usable, but unfinished. Changes are expected.
+> 🚧 This theme is discontinued because I'm having a hard time deciding which theme to use. Now I use the default theme.
+> If somehow you like this theme, please fork it and publish one yourself, thank you!
 
 <p align="center">
   A VSCode theme I created by mixing some colors with built-in Monokai theme.

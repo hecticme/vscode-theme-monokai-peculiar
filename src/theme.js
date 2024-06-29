@@ -7,7 +7,7 @@ const defaultTheme = {
   type: 'dark',
   colors: {
     'activityBar.border': defaultColors.border[0],
-    'activityBar.activeBorder': defaultColors.haze,
+    'activityBar.activeBorder': transparent,
     'activityBar.background': defaultColors.background[0],
     'activityBar.foreground': defaultColors.haze,
     'activityBarBadge.background': defaultColors.haze,
@@ -97,7 +97,7 @@ const defaultTheme = {
 
     'ports.iconRunningProcessForeground': defaultColors.foreground[0],
 
-    'progressBar.background': defaultColors.oliveGray,
+    'progressBar.background': defaultColors.haze,
 
     'quickInput.background': defaultColors.background[0],
     'quickInputList.focusBackground': defaultColors.selection[0],
@@ -128,9 +128,9 @@ const defaultTheme = {
     'tab.activeBackground': defaultColors.background[0],
     'tab.activeBorder': defaultColors.haze,
     'tab.border': defaultColors.border[0],
-    'tab.hoverBackground': hexWithAlpha(defaultColors.selection[1], 0.25),
     'tab.inactiveBackground': defaultColors.background[0],
     'tab.inactiveForeground': defaultColors.foreground[0],
+    'tab.hoverForeground': defaultColors.haze,
     'tab.lastPinnedBorder': defaultColors.border[0],
 
     'terminal.ansiBlack': defaultColors.background[0],
