@@ -13,7 +13,7 @@ const defaultColors = {
     inserted: '#4b661680',
     removed: '#90274a70',
   },
-  comment: '#7c8390',
+  comment: '#88846f',
   whitespace: '#464741',
   border: [
     '#363636',
